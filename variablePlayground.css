@@ -1,0 +1,31 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+html {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    margin: 3vh;
+}
+
+
+span {
+    color: var(--base);
+}
+
+img {
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
